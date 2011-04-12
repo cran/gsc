@@ -1,7 +1,7 @@
 Package: gsc
 Title: Generalised Shape Constraints
-Version: 0.2.0
-Date: 2010-12-02
+Version: 0.2.1
+Date: 2011-04-12
 Author: Charlotte Maia
 Maintainer: Charlotte Maia <maiagx@gmail.com>
 Description: A package for smoothing with shape constraints. A smooth
@@ -11,6 +11,6 @@ Description: A package for smoothing with shape constraints. A smooth
         zeroth, first, second or third derivative.
 License: GPL (>= 2)
 Depends: ofp (>= 0.6.0), quadprog
-Packaged: 2010-12-02 04:45:44 UTC; maia
+Packaged: 2011-04-12 09:55:43 UTC; maia
 Repository: CRAN
-Date/Publication: 2010-12-02 12:50:41
+Date/Publication: 2011-04-13 09:25:34

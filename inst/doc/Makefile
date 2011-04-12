@@ -1,20 +1,9 @@
-bldcmd=R CMD Sweave
-
 default:
-	make draft
+	make -f maketex gsc.pdf
 	make clean
 
 enhanced:
-	make draft bldcmd=makesweave
-
-draft:
-	make gsc.pdf
-
-gsc.pdf: gsc.tex maia2.sty
-	pdflatex gsc.tex
-
-gsc.tex: gsc.rnw
-	$(bldcmd) gsc.rnw
+	make -f maketex bldcmd=makesweave
 
 init:
 	rm -f /tmp/makesweavepipe

@@ -12,7 +12,7 @@ par(mar=c(4.1, 4.1, 2.6, 1.6), cex=0.7, cex.main=1)))
 library (gsc)
 @
 
-\mtitle {gsc}{0.2.0}{Generalised Shape Constraints\\(\textit{Very} Rough Draft)}
+\mtitle {gsc}{0.2.1}{Generalised Shape Constraints\\(\textit{Very} Rough Draft)}
 
 \mabstract {This vignette introduces the gsc package, an R package for smoothing with generalised shape constraints. Here, a smooth function is regarded as a continuous function approximated by a series of points, and a shape constraint is regarded as a piece-wise constraint on the sign of a smooth function's zeroth, first, second or third derivative. One of the main goals of the package, is to generalise shape constraints, such that it's possible to specify an extensive variety of shapes. An initial (unconstrained) series is estimated using (locally-weighted) polynomials. Quadratic programming is used to transform the initial series, such that it satisfies the constraints.}
 
