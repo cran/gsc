@@ -1,6 +1,6 @@
 bldcmd=R CMD Sweave
 
-gsc.pdf: gsc.tex maia2.sty
+gsc.pdf: gsc.tex
 	pdflatex gsc.tex
 
 gsc.tex: gsc.rnw

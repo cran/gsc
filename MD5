@@ -1,0 +1,10 @@
+83674a157f477f2893a0dfb582f47267 *DESCRIPTION
+e1aef52a5889aed31b96d918b26e7e5f *NAMESPACE
+3cca2cccb387090fc6468870209a5134 *R/args_constraints.r
+545b6dc8ec997eb555d28b06db6c6de2 *R/gsc.r
+4fe37b0003da43d154d77ebbbe66d037 *R/gsc_solve.r
+415b906a5926cff04cd3132d3a290a43 *inst/doc/Makefile
+b793b9f21fbf0a85b882b5b67e30b021 *inst/doc/gsc.pdf
+b6704ec64ea76f820e1eddad11446b3f *inst/doc/gsc.rnw
+70ea9d823616eaf3e1023a91447064fb *inst/doc/make-ext
+7984e44e9dedc226a6bb3e2f346a2142 *man/gsc.Rd

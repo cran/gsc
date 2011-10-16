@@ -1,9 +1,9 @@
 default:
-	make -f maketex gsc.pdf
+	make -f make-ext
 	make clean
 
 enhanced:
-	make -f maketex bldcmd=makesweave
+	make -f make-ext bldcmd=makesweave
 
 init:
 	rm -f /tmp/makesweavepipe
@@ -17,4 +17,5 @@ clean:
 	rm -f *.log
 	rm -f tmp*
 	rm -f Rplots*
+
 
